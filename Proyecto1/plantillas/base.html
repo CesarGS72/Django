@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %}</title>
+</head>
+<body>
+    <h1 style="background-color: hwb(84 5% 49%); color: aliceblue; text-align: center;">La casa de Nenita</h1>
+    {% include "barra.html" %}
+    <h3>Sus cositas y manías</h3>
+    {% block content %} 
+    
+    {% endblock %}
+
+    <footer>
+        <p style="background-color: hwb(84 5% 49%); color: aliceblue; text-align:right;">Gracias por visitar las cosas de la Niki's</p>
+    </footer>
+
+</body>
+</html>

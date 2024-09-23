@@ -25,4 +25,6 @@ urlpatterns = [
     path('despedida/', despedida),
     path('hora/', dame_fecha),
     path('edad/<int:agno>/<int:agnofuturo>', calcula_edad),
+    path('moxa/', moxeta),
+    path('sofa/', sofalete),
 ]
