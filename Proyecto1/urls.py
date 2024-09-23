@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from Proyecto1.views import *
 
+# Aquí incluyo todas las URL's que se podrán abrir desde las vistas
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('saludo/', saludo),
